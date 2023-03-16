@@ -48,7 +48,7 @@
 
 
          public function setPassword($password):void{
-              $this->password=$password;
+              $this->password= md5($password);
          }
 
 
